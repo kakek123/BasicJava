@@ -1,6 +1,6 @@
 package chapter02;
 
-public class Exercise07 {
+public class Excercise07 {
 
     public static void main(String[] args) {
         double a = .6 + .6 + .6 + .6 +.6 +.6;
