@@ -5,18 +5,9 @@ public class Excercise09 {
     public static void main(String[] args) {
 
         String taste = "way to hot";
+        int tempAdjustment = 0;
 
-        int tempAdjustment = switch (taste) {
-            case "too cold" -> 1;
-            case "way to hot" -> -2;
-            case "too hot" -> -1;
-            case "just right" -> 0;
-            default -> 0;
-        };
-
-        System.out.println("Adjust temperature "+ tempAdjustment);
-
-      /*  switch(taste) {
+        switch(taste) {
             case "too cold": tempAdjustment += 1;
                break;
             case "way too hot": tempAdjustment -= 1;
@@ -27,6 +18,6 @@ public class Excercise09 {
             default:
                 break;
         }
-        System.out.println("Adjust temperature "+ tempAdjustment);*/
+        System.out.println("Adjust temperature "+ tempAdjustment);
     }
 }
